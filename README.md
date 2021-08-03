@@ -1,7 +1,7 @@
 # Titanfall-2-DDS-skin-application
 script to automatically apply dds textures to pc_stream.starpak 
 
-**This tool does not create backups
+**This tool does not create backups**
 
 Currently supported DDS textures:
 
