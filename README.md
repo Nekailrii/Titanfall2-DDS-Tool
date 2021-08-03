@@ -7,12 +7,13 @@ This tool does not create backups
 
 Currently supported DDS textures:
 
- NAME                FILE ENDING
--base color          col
--Normal              nml
--gloss               gls
--specular            spc
--ambient occlusion   ao
+| NAME              | FILE ENDING  | 
+| :-------------    | :----------: |
+|  base color       | col          | 
+|  normal           | nml          |
+|  gloss            | gls          |
+|  specular         | spc          |
+|  ambient occlusion| ao           |
 
 INSTRUCTIONS:
 
