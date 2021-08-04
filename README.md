@@ -1,4 +1,4 @@
-# Titanfall-2-DDS-skin-application
+# Titanfall2-DDS-Tool
 script to automatically apply dds textures to pc_stream.starpak 
 
 **This tool does not create backups**
