@@ -11,7 +11,9 @@ Currently supported DDS textures:
 |  normal           | nml          |
 |  gloss            | gls          |
 |  specular         | spc          |
+|  illuminance      | ilm          |
 |  ambient occlusion| ao           |
+|  cavity           | cav          |
 
 INSTRUCTIONS:
 
