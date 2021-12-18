@@ -1568,11 +1568,11 @@ def confirm_selection(selected):
     if not dds_2048_spc == []:
         print("spc - " + str(dds_2048_spc)[2:-2])
     if not dds_2048_ilm == []:
-        print("ilm - " + str(dds_2048_ilm)[2:-2])        
+        print("ilm - " + str(dds_2048_ilm)[2:-2])
     if not dds_2048_ao  == []:
         print("ao - " + str(dds_2048_ao)[2:-2])
     if not dds_2048_cav == []:
-        print("cav - " + str(dds_2048_cav)[2:-2])        
+        print("cav - " + str(dds_2048_cav)[2:-2])
     print("")
     print("DDS_1024 files found:")
     if not dds_1024_col == []:
@@ -1584,11 +1584,11 @@ def confirm_selection(selected):
     if not dds_1024_spc == []:
         print("spc - " + str(dds_1024_spc)[2:-2])
     if not dds_1024_ilm == []:
-        print("ilm - " + str(dds_1024_ilm)[2:-2])       
+        print("ilm - " + str(dds_1024_ilm)[2:-2])
     if not dds_1024_ao  == []:
         print("ao - " + str(dds_1024_ao)[2:-2])
     if not dds_1024_cav == []:
-        print("cav - " + str(dds_1024_cav)[2:-2])        
+        print("cav - " + str(dds_1024_cav)[2:-2])
     print("")
     print("DDS_512 files found:")
     if not dds_512_col == []:
@@ -1600,11 +1600,11 @@ def confirm_selection(selected):
     if not dds_512_spc == []:
         print("spc - " + str(dds_512_spc)[2:-2])
     if not dds_512_ilm == []:
-        print("ilm - " + str(dds_512_ilm)[2:-2])        
+        print("ilm - " + str(dds_512_ilm)[2:-2])
     if not dds_512_ao  == []:
         print("ao - " + str(dds_512_ao)[2:-2])
     if not dds_512_cav == []:
-        print("cav - " + str(dds_512_cav)[2:-2])        
+        print("cav - " + str(dds_512_cav)[2:-2])
     print("")
     
     option = str(input("Proceed to apply DDS files [y/n] -> "))
@@ -1671,128 +1671,21 @@ def menu(message):
     except ValueError:
         clear()
         menu(invalid_messege)
-        option = 0
+        # option = 0 is unreachable
     
     while option != 0:
-        if option == 1:
-            clear()
-            confirm_selection(rspn101)
-            option = 0
-        elif option == 2:
-            clear()
-            confirm_selection(m1a1_hemlok)
-            option = 0
-        elif option == 3:
-            clear()
-            confirm_selection(vinson)
-            option = 0
-        elif option == 4:
-            clear()
-            confirm_selection(g2)
-            option = 0
-        elif option == 5:
-            clear()
-            confirm_selection(alternator_smg)
-            option = 0
-        elif option == 6:
-            clear()
-            confirm_selection(car101)
-            option = 0
-        elif option == 7:
-            clear()
-            confirm_selection(r97)
-            option = 0
-        elif option == 8:
-            clear()
-            confirm_selection(hemlok_smg)
-            option = 0
-        elif option == 9:
-            clear()
-            confirm_selection(hemlok_br)
-            option = 0
-        elif option == 10:
-            clear()
-            confirm_selection(lstar)
-            option = 0
-        elif option == 11:
-            clear()
-            confirm_selection(lmg_hemlok)
-            option = 0
-        elif option == 12:
-            clear()
-            confirm_selection(doubletake)
-            option = 0
-        elif option == 13:
-            clear()
-            confirm_selection(at_rifle)
-            option = 0
-        elif option == 14:
-            clear()
-            confirm_selection(rspn101_dmr)
-            option = 0
-        elif option == 15:
-            clear()
-            confirm_selection(w1128)
-            option = 0
-        elif option == 16:
-            clear()
-            confirm_selection(mastiff_stgn)
-            option = 0
-        elif option == 17:
-            clear()
-            confirm_selection(pulse_lmg)
-            option = 0
-        elif option == 18:
-            clear()
-            confirm_selection(epg)
-            option = 0
-        elif option == 19:
-            clear()
-            confirm_selection(auto_rocket_launcher_ar)
-            option = 0
-        elif option == 20:
-            clear()
-            confirm_selection(softball_at)
-            option = 0
-        elif option == 21:
-            clear()
-            confirm_selection(pstl_sa3)
-            option = 0
-        elif option == 22:
-            clear()
-            confirm_selection(p2011)
-            option = 0
-        elif option == 23:
-            clear()
-            confirm_selection(p2011_auto)
-            option = 0
-        elif option == 24:
-            clear()
-            confirm_selection(p2011sp)
-            option = 0
-        elif option == 25:
-            clear()
-            confirm_selection(b3wing)
-            option = 0
-        elif option == 26:
-            clear()
-            confirm_selection(shoulder_rocket_sram)
-            option = 0
-        elif option == 27:
-            clear()
-            confirm_selection(defender)
-            option = 0
-        elif option == 28:
-            clear()
-            confirm_selection(mgl_at)
-            option = 0
-        elif option == 29:
-            clear()
-            confirm_selection(arc_launcher)
-            option = 0
-        else:
+        selections = [rspn101, m1a1_hemlok, vinson, g2, alternator_smg, car101, r97,
+        hemlok_smg, hemlok_br, lstar, lmg_hemlok, doubletake, at_rifle, rspn101_dmr,
+        w1128, mastiff_stgn, pulse_lmg, epg, auto_rocket_launcher_ar, softball_at,
+        pstl_sa3, p2011, p2011_auto, p2011sp, b3wing, shoulder_rocket_sram, defender, mgl_at, arc_launcher]
+
+        if option < 1 or option > 29:
             clear()
             menu(invalid_messege)
+            # option = 0 is unreachable
+        else:
+            clear
+            confirm_selection(selections[option - 1])
             option = 0
 
 menu("Enter a number to select -> ")
