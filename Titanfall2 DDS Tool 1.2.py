@@ -90,6 +90,251 @@ rspn101_sfp_offsets = [rspn101_sfp_2048_col,
                        rspn101_sfp_512_spc,
                        rspn101_sfp_512_ao]
 """
+hcog2_1024_col        = int('000000022F2E1000',16)
+hcog2_1024_nml        = int('000000022F3B1000',16)
+hcog2_1024_gls        = int('000000022F4D1000',16)
+hcog2_1024_spc        = int('000000022F571000',16)
+hcog2_1024_ilm        = int('000000022F611000',16)
+hcog2_1024_ao         = int('000000022F6B1000',16)
+hcog2_1024_cav        = int('000000022F751000',16)
+hcog2_512_col         = int('000000022F2C1000',16)
+hcog2_512_nml         = int('000000022F371000',16)
+hcog2_512_gls         = int('000000022F4B1000',16)
+hcog2_512_spc         = int('000000022F551000',16)
+hcog2_512_ilm         = int('000000022F5F1000',16)
+hcog2_512_ao          = int('000000022F691000',16)
+hcog2_512_cav         = int('000000022F731000',16)
+
+hcog2_offsets = [hcog2_1024_col,
+                         hcog2_1024_nml,
+                         hcog2_1024_gls,
+                         hcog2_1024_spc,
+                         hcog2_1024_ilm,
+                         hcog2_1024_ao,
+                         hcog2_1024_cav,
+                         hcog2_512_col,
+                         hcog2_512_nml,
+                         hcog2_512_gls,
+                         hcog2_512_spc,
+                         hcog2_512_ilm,
+                         hcog2_512_ao,
+                         hcog2_512_cav]
+
+threat_scope_sniper_1024_col        = int('000000022FC11000',16)
+threat_scope_sniper_1024_nml        = int('000000022FCE1000',16)
+threat_scope_sniper_1024_gls        = int('000000022FE01000',16)
+threat_scope_sniper_1024_spc        = int('000000022FEA1000',16)
+threat_scope_sniper_1024_ao         = int('000000022FF41000',16)
+threat_scope_sniper_1024_cav        = int('000000022FFE1000',16)
+threat_scope_sniper_512_col         = int('000000022FBF1000',16)
+threat_scope_sniper_512_nml         = int('000000022FCA1000',16)
+threat_scope_sniper_512_gls         = int('000000022FDE1000',16)
+threat_scope_sniper_512_spc         = int('000000022FE81000',16)
+threat_scope_sniper_512_ao          = int('000000022FF21000',16)
+threat_scope_sniper_512_cav         = int('000000022FFC1000',16)
+
+threat_scope_sniper_offsets = [threat_scope_sniper_1024_col,
+                         threat_scope_sniper_1024_nml,
+                         threat_scope_sniper_1024_gls,
+                         threat_scope_sniper_1024_spc,
+                         threat_scope_sniper_1024_ao,
+                         threat_scope_sniper_1024_cav,
+                         threat_scope_sniper_512_col,
+                         threat_scope_sniper_512_nml,
+                         threat_scope_sniper_512_gls,
+                         threat_scope_sniper_512_spc,
+                         threat_scope_sniper_512_ao,
+                         threat_scope_sniper_512_cav]
+
+threat_w_scope_1024_col        = int('000000022E961000',16)
+threat_w_scope_1024_nml        = int('000000022EA31000',16)
+threat_w_scope_1024_gls        = int('000000022EB51000',16)
+threat_w_scope_1024_spc        = int('000000022EBF1000',16)
+threat_w_scope_1024_ilm        = int('000000022EC91000',16)
+threat_w_scope_1024_ao         = int('000000022ED31000',16)
+threat_w_scope_1024_cav        = int('000000022EDD1000',16)
+threat_w_scope_512_col         = int('000000022E941000',16)
+threat_w_scope_512_nml         = int('000000022E9F1000',16)
+threat_w_scope_512_gls         = int('000000022EB31000',16)
+threat_w_scope_512_spc         = int('000000022EBD1000',16)
+threat_w_scope_512_ilm         = int('000000022EC71000',16)
+threat_w_scope_512_ao          = int('000000022ED11000',16)
+threat_w_scope_512_cav         = int('000000022EDB1000',16)
+
+threat_w_scope_offsets = [threat_w_scope_1024_col,
+                         threat_w_scope_1024_nml,
+                         threat_w_scope_1024_gls,
+                         threat_w_scope_1024_spc,
+                         threat_w_scope_1024_ilm,
+                         threat_w_scope_1024_ao,
+                         threat_w_scope_1024_cav,
+                         threat_w_scope_512_col,
+                         threat_w_scope_512_nml,
+                         threat_w_scope_512_gls,
+                         threat_w_scope_512_spc,
+                         threat_w_scope_512_ilm,
+                         threat_w_scope_512_ao,
+                         threat_w_scope_512_cav]
+						 
+aog_sight_1024_col        = int('000000020BA41000',16)
+aog_sight_1024_nml        = int('000000020BB11000',16)
+aog_sight_1024_gls        = int('000000020BC31000',16)
+aog_sight_1024_spc        = int('000000020BCD1000',16)
+aog_sight_1024_ao         = int('000000020BD71000',16)
+aog_sight_1024_cav        = int('000000020BE11000',16)
+aog_sight_512_col         = int('000000020BA21000',16)
+aog_sight_512_nml         = int('000000020BAD1000',16)
+aog_sight_512_gls         = int('000000020BC11000',16)
+aog_sight_512_spc         = int('000000020BCB1000',16)
+aog_sight_512_ao          = int('000000020BD51000',16)
+aog_sight_512_cav         = int('000000020BDF1000',16)
+
+aog_sight_offsets = [aog_sight_1024_col,
+                         aog_sight_1024_nml,
+                         aog_sight_1024_gls,
+                         aog_sight_1024_spc,
+                         aog_sight_1024_ao,
+                         aog_sight_1024_cav,
+                         aog_sight_512_col,
+                         aog_sight_512_nml,
+                         aog_sight_512_gls,
+                         aog_sight_512_spc,
+                         aog_sight_512_ao,
+                         aog_sight_512_cav] 
+
+holo_reflex_sight_magnifier_1024_col        = int('000000022F7F1000',16)
+holo_reflex_sight_magnifier_1024_nml        = int('000000022F8C1000',16)
+holo_reflex_sight_magnifier_1024_gls        = int('000000022F9E1000',16)
+holo_reflex_sight_magnifier_1024_spc        = int('000000022FA81000',16)
+holo_reflex_sight_magnifier_512_col         = int('000000022F7D1000',16)
+holo_reflex_sight_magnifier_512_nml         = int('000000022F881000',16)
+holo_reflex_sight_magnifier_512_gls         = int('000000022F9C1000',16)
+holo_reflex_sight_magnifier_512_spc         = int('000000022FA61000',16)
+
+holo_reflex_sight_magnifier_offsets = [holo_reflex_sight_magnifier_1024_col,
+                         holo_reflex_sight_magnifier_1024_nml,
+                         holo_reflex_sight_magnifier_1024_gls,
+                         holo_reflex_sight_magnifier_1024_spc,
+                         holo_reflex_sight_magnifier_512_col,
+                         holo_reflex_sight_magnifier_512_nml,
+                         holo_reflex_sight_magnifier_512_gls,
+                         holo_reflex_sight_magnifier_512_spc]
+						 
+acgs_sight_1024_col        = int('000000020B5C1000',16)
+acgs_sight_1024_nml        = int('000000020B691000',16)
+acgs_sight_1024_gls        = int('000000020B7B1000',16)
+acgs_sight_1024_spc        = int('000000020B851000',16)
+acgs_sight_1024_ao         = int('000000020B8F1000',16)
+acgs_sight_1024_cav        = int('000000020B991000',16)
+acgs_sight_512_col         = int('000000020B5A1000',16)
+acgs_sight_512_nml         = int('000000020B651000',16)
+acgs_sight_512_gls         = int('000000020B791000',16)
+acgs_sight_512_spc         = int('000000020B831000',16)
+acgs_sight_512_ao          = int('000000020B8D1000',16)
+acgs_sight_512_cav         = int('000000020B971000',16)
+
+acgs_sight_offsets = [acgs_sight_1024_col,
+                         acgs_sight_1024_nml,
+                         acgs_sight_1024_gls,
+                         acgs_sight_1024_spc,
+                         acgs_sight_1024_ao,
+                         acgs_sight_1024_cav,
+                         acgs_sight_512_col,
+                         acgs_sight_512_nml,
+                         acgs_sight_512_gls,
+                         acgs_sight_512_spc,
+                         acgs_sight_512_ao,
+                         acgs_sight_512_cav]
+						 
+dcom_1024_col        = int('000000022EE71000',16)
+dcom_1024_nml        = int('000000022EF41000',16)
+dcom_1024_gls        = int('000000022F061000',16)
+dcom_1024_spc        = int('000000022F101000',16)
+dcom_1024_ao         = int('000000022F1A1000',16)
+dcom_1024_cav        = int('000000022F241000',16)
+dcom_512_col         = int('000000022EE51000',16)
+dcom_512_nml         = int('000000022EF01000',16)
+dcom_512_gls         = int('000000022F041000',16)
+dcom_512_spc         = int('000000022F0E1000',16)
+dcom_512_ao          = int('000000022F181000',16)
+dcom_512_cav         = int('000000022F221000',16)
+
+dcom_offsets = [dcom_1024_col,
+                         dcom_1024_nml,
+                         dcom_1024_gls,
+                         dcom_1024_spc,
+                         dcom_1024_ao,
+                         dcom_1024_cav,
+                         dcom_512_col,
+                         dcom_512_nml,
+                         dcom_512_gls,
+                         dcom_512_spc,
+                         dcom_512_ao,
+                         dcom_512_cav]
+						 
+talon_optic_1024_col        = int('0000000233AA1000',16)
+talon_optic_1024_nml        = int('0000000233B71000',16)
+talon_optic_1024_gls        = int('0000000233C91000',16)
+talon_optic_1024_spc        = int('0000000233D31000',16)
+talon_optic_1024_ao         = int('0000000233DD1000',16)
+talon_optic_1024_cav        = int('0000000233E71000',16)
+talon_optic_512_col         = int('0000000233A81000',16)
+talon_optic_512_nml         = int('0000000233B31000',16)
+talon_optic_512_gls         = int('0000000233C71000',16)
+talon_optic_512_spc         = int('0000000233D11000',16)
+talon_optic_512_ao          = int('0000000233DB1000',16)
+talon_optic_512_cav         = int('0000000233E51000',16)
+
+talon_optic_offsets = [talon_optic_1024_col,
+                         talon_optic_1024_nml,
+                         talon_optic_1024_gls,
+                         talon_optic_1024_spc,
+                         talon_optic_1024_ao,
+                         talon_optic_1024_cav,
+                         talon_optic_512_col,
+                         talon_optic_512_nml,
+                         talon_optic_512_gls,
+                         talon_optic_512_spc,
+                         talon_optic_512_ao,
+                         talon_optic_512_cav] 
+						 
+suppressors_1024_col        = int('000000020C931000',16)
+suppressors_1024_nml        = int('000000020CA01000',16)
+suppressors_1024_gls        = int('000000020CB21000',16)
+suppressors_1024_spc        = int('000000020CBC1000',16)
+suppressors_1024_ao         = int('000000020CC61000',16)
+suppressors_512_col         = int('000000020C911000',16)
+suppressors_512_nml         = int('000000020C9C1000',16)
+suppressors_512_gls         = int('000000020CB01000',16)
+suppressors_512_spc         = int('000000020CBA1000',16)
+suppressors_512_ao          = int('000000020CC41000',16)
+
+suppressors_offsets = [suppressors_1024_col,
+                         suppressors_1024_nml,
+                         suppressors_1024_gls,
+                         suppressors_1024_spc,
+                         suppressors_1024_ao,
+                         suppressors_512_col,
+                         suppressors_512_nml,
+                         suppressors_512_gls,
+                         suppressors_512_spc,
+                         suppressors_512_ao]
+						 
+pro_screen_512_col         = int('0000000230061000',16)
+pro_screen_512_nml         = int('0000000230091000',16)
+pro_screen_512_gls         = int('00000002300D1000',16)
+pro_screen_512_spc         = int('00000002300F1000',16)
+pro_screen_512_ilm         = int('0000000230111000',16)
+pro_screen_512_ao          = int('0000000230131000',16)
+pro_screen_512_cav         = int('0000000230151000',16)
+
+pro_screen_offsets = [pro_screen_512_col,
+                         pro_screen_512_nml,
+                         pro_screen_512_gls,
+                         pro_screen_512_spc,
+                         pro_screen_512_ilm,
+                         pro_screen_512_ao,
+                         pro_screen_512_cav]
 
 m1a1_hemlok_2048_col          = int('0000000242B71000',16)
 m1a1_hemlok_2048_nml          = int('0000000242EC1000',16)
@@ -1039,31 +1284,38 @@ b3wing_offsets = [b3wing_1024_col,
                   b3wing_512_ao,
                   b3wing_512_cav]
 
-"""
-Have not found offsets for wingman_elite
 
-wingman_elite_1024_col        = int('',16)
-wingman_elite_1024_nml        = int('',16)
-wingman_elite_1024_gls        = int('',16)
-wingman_elite_1024_spc        = int('',16)
-wingman_elite_1024_ao         = int('',16)
-wingman_elite_512_col         = int('',16)
-wingman_elite_512_nml         = int('',16)
-wingman_elite_512_gls         = int('',16)
-wingman_elite_512_spc         = int('',16)
-wingman_elite_512_ao          = int('',16)
+
+wingman_elite_1024_col        = int('00000002618A1000',16)
+wingman_elite_1024_nml        = int('0000000261971000',16)
+wingman_elite_1024_gls        = int('0000000261A91000',16)
+wingman_elite_1024_spc        = int('0000000261B31000',16)
+wingman_elite_1024_ilm        = int('0000000261BD1000',16)
+wingman_elite_1024_ao         = int('0000000261C71000',16)
+wingman_elite_1024_cav        = int('0000000261D11000',16)
+wingman_elite_512_col         = int('0000000261881000',16)
+wingman_elite_512_nml         = int('0000000261931000',16)
+wingman_elite_512_gls         = int('0000000261A71000',16)
+wingman_elite_512_spc         = int('0000000261B11000',16)
+wingman_elite_512_ilm         = int('0000000261BB1000',16)
+wingman_elite_512_ao          = int('0000000261C51000',16)
+wingman_elite_512_cav         = int('0000000261CF1000',16)
 
 wingman_elite_offsets = [wingman_elite_1024_col,
                          wingman_elite_1024_nml,
                          wingman_elite_1024_gls,
                          wingman_elite_1024_spc,
+                         wingman_elite_1024_ilm,
                          wingman_elite_1024_ao,
+                         wingman_elite_1024_cav,
                          wingman_elite_512_col,
                          wingman_elite_512_nml,
                          wingman_elite_512_gls,
                          wingman_elite_512_spc,
-                         wingman_elite_512_ao]
-"""
+                         wingman_elite_512_ilm,
+                         wingman_elite_512_ao,
+                         wingman_elite_512_cav]
+
 
 shoulder_rocket_sram_2048_col = int('000000022B0D1000',16)
 shoulder_rocket_sram_2048_nml = int('000000022B621000',16)
@@ -1362,6 +1614,8 @@ files_full_ilm = files_2048_no_ilm + files_1024_no_ilm + files_512_no_ilm
 files_pstl_ilm = files_1024_no_ilm + files_512_no_ilm
 files_full_cav = files_2048_no_cav + files_1024_no_cav + files_512_no_cav
 
+files_pro = files_512
+
 """
 Item Data
 """
@@ -1444,9 +1698,9 @@ p2011sp                       = {'name' : 'Smart Pistol',
 b3wing                        = {'name' : 'Wingman B3',
                                  'offsets' : b3wing_offsets,
                                  'file_type' : files_list_pstl}
-#wingman_elite                = {'name' : 'Wingman Elite',
-#                                'offsets' : wingman_elite_offsets,
-#                                'file_type' : files_list_pstl}
+wingman_elite                = {'name' : 'Wingman Elite',
+                                'offsets' : wingman_elite_offsets,
+                                'file_type' : files_list_pstl}
 shoulder_rocket_sram          = {'name' : 'Archer',
                                  'offsets' : shoulder_rocket_sram_offsets,
                                  'file_type' : files_list_full}
@@ -1459,7 +1713,36 @@ mgl_at                        = {'name' : 'MGL',
 arc_launcher                  = {'name' : 'Thunderbolt LG-97',
                                  'offsets' : arc_launcher_offsets,
                                  'file_type' : files_list_full}
-
+hcog2                        = {'name' : 'Hcog',
+                                 'offsets' : hcog2_offsets,
+                                 'file_type' : files_list_pstl}
+threat_w_scope               = {'name' : 'Threat Scope',
+                                 'offsets' : threat_w_scope_offsets,
+                                 'file_type' : files_list_pstl}
+aog_sight                    = {'name' : 'Aog Sight',
+                                 'offsets' : aog_sight_offsets,
+                                 'file_type' : files_list_pstl}
+holo_reflex_sight            = {'name' : 'Holo Reflex Sight',
+                                 'offsets' : holo_reflex_sight_magnifier_offsets,
+                                 'file_type' : files_list_pstl}
+acgs_sight                   = {'name' : 'Acog Sight',
+                                 'offsets' : acgs_sight_offsets,
+                                 'file_type' : files_list_pstl}
+threat_scope_sniper          = {'name' : 'Threat Scope Sniper',
+                                 'offsets' : threat_scope_sniper_offsets,
+                                 'file_type' : files_list_pstl}
+dcom                         = {'name' : 'Sniper Scope',
+                                 'offsets' : dcom_offsets,
+                                 'file_type' : files_list_pstl}
+talon_optic                  = {'name' : 'Sniper Scope x4',
+                                 'offsets' : talon_optic_offsets,
+                                 'file_type' : files_list_pstl}
+suppressor                   = {'name' : 'Supressor',
+                                 'offsets' : suppressors_offsets,
+                                 'file_type' : files_list_pstl}
+pro_screen                   = {'name' : 'Pro Screen',
+                                 'offsets' : pro_screen_offsets,
+                                 'file_type' : files_pro}
    
 # MESSEGES
 
@@ -1636,35 +1919,58 @@ def menu(message):
     None.
 
     """
-    print("[01] " + rspn101['name']         + "     [16] "          +\
-          mastiff_stgn['name'])
-    print("[02] " + m1a1_hemlok['name']     + "      [17] "         +\
-          pulse_lmg['name'])
-    print("[03] " + vinson['name']          + "     [18] "          +\
-          epg['name'])
-    print("[04] " + g2['name']              + "              [19] " +\
-          auto_rocket_launcher_ar['name'])
-    print("[05] " + alternator_smg['name']  + "        [20] "       +\
-          softball_at['name']) 
-    print("[06] " + car101['name']          + "               [21] "+\
-          pstl_sa3['name'])
-    print("[07] " + r97['name']            + "              [22] "  +\
-          p2011['name'])
-    print("[08] " + hemlok_smg['name']      + "              [23] " +\
-          p2011_auto['name'])
-    print("[09] " + hemlok_br['name']       + "          [24] "     +\
-          p2011sp['name'])
-    print("[10] " + lstar['name']           + "            [25] "   +\
-          b3wing['name'])
-    print("[11] " + lmg_hemlok['name']      + "          [26] "     +\
-          shoulder_rocket_sram['name'])
-    print("[12] " + doubletake['name']      + "       [27] "        +\
-          defender['name'])
-    print("[13] " + at_rifle['name']        + "            [28] "   +\
-          mgl_at['name'])
-    print("[14] " + rspn101_dmr['name']     + "       [29] "        +\
-          arc_launcher['name'])
-    print("[15] " + w1128['name']           + "        [00] EXIT")
+    print("|---------------------- |Assault| -----------------------|")
+    print("  [01] " + rspn101['name']+"                [02] " +\
+         m1a1_hemlok['name'])
+    print("  [03] " + vinson['name']+"                [04] " +\
+         g2['name'])
+    print("|----------------------- |SMG| --------------------------|")
+    print("  [05] " + alternator_smg['name']+"                   [06] " +\
+         car101['name']) 
+    print("  [07] " + r97['name']+"                         [08] " +\
+         hemlok_smg['name'])
+    print("|----------------------- |LMG| --------------------------|")
+    print("  [09] " + hemlok_br['name']+"                     [10] " +\
+         lstar['name'])
+    print("  [11] " + lmg_hemlok['name'])
+    print("|---------------------- |Sniper| ------------------------|")
+    print("  [12] " + doubletake['name']+"                  [13] " +\
+         at_rifle['name'])
+    print("  [14] " + rspn101_dmr['name'])
+    print("|-------------------- |Shotguns| ------------------------|")
+    print("  [15] " + w1128['name']+"                   [16] " +\
+         mastiff_stgn['name'])
+    print("|-------------------- |Granadier| -----------------------|")
+    print("  [17] " + pulse_lmg['name']+"                [18] " +\
+         epg['name'])
+    print("  [19] " + auto_rocket_launcher_ar['name']+"               [20] " +\
+         softball_at['name'])
+    print("|--------------------- |Pisotls| ------------------------|")
+    print("  [21] " + pstl_sa3['name']+"                   [22] " +\
+         p2011['name'])
+    print("  [23] " + p2011_auto['name']+"                   [24] " +\
+         p2011sp['name'])
+    print("  [25] " + b3wing['name']+"                   [30] " +\
+         wingman_elite['name'])
+    print("|-------------------- |AntiTitan| -----------------------|")
+    print("  [26] " + shoulder_rocket_sram['name']+"                       [27] " +\
+         defender['name'])
+    print("  [28] " + mgl_at['name']+"                          [29] " +\
+         arc_launcher['name'])
+    print("|--------------------- |Scopes| -------------------------|")
+    print("  [31] " + hcog2['name']+"                         [32] " +\
+         threat_w_scope['name'])
+    print("  [33] " + aog_sight['name']+"                    [34] " +\
+         holo_reflex_sight['name'])
+    print("  [35] " + acgs_sight['name'])
+    print("|------------------ |Sniper Scopes| ---------------------|")
+    print("  [36] " + threat_scope_sniper['name']+"          [37] " +\
+         dcom['name'])
+    print("  [38] " + talon_optic['name'])
+    print("|------------------- |Attachments| ----------------------|")
+    print("  [39] " + suppressor['name']+"                    [40] " +\
+         pro_screen['name'])
+    print("[00] EXIT")
     
     try:
         option = int(input(message))
@@ -1790,6 +2096,54 @@ def menu(message):
             clear()
             confirm_selection(arc_launcher)
             option = 0
+        elif option == 30:
+            clear()
+            confirm_selection(wingman_elite)
+            option = 0
+        elif option == 31:
+            clear()
+            confirm_selection(hcog2)
+            option = 0
+        elif option == 32:
+            clear()
+            confirm_selection(threat_w_scope)
+            option = 0
+        elif option == 33:
+            clear()
+            confirm_selection(aog_sight)
+            option = 0
+        elif option == 34:
+            clear()
+            confirm_selection(holo_reflex_sight)
+            option = 0
+        elif option == 35:
+            clear()
+            confirm_selection(acgs_sight)
+            option = 0
+        elif option == 36:
+            clear()
+            confirm_selection(threat_scope_sniper)
+            option = 0
+        elif option == 37:
+            clear()
+            confirm_selection(dcom)
+            option = 0
+        elif option == 38:
+            clear()
+            confirm_selection(talon_optic)
+            option = 0
+        elif option == 39:
+            clear()
+            confirm_selection(suppressor)
+            option = 0
+        elif option == 40:
+            clear()
+            confirm_selection(pro_screen)
+            option = 0
+#        elif option == 37:
+#            clear()
+#            confirm_selection(hcog2)
+#            option = 0
         else:
             clear()
             menu(invalid_messege)
